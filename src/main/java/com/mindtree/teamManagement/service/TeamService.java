@@ -19,7 +19,7 @@ public class TeamService {
 	private PlayerRepository playerRepo;
 	public String addTeam(Team team) {
 		teamRepo.save(team);
-		String message="Team added successfully";
+		String message="Team added successfully completed git";
 		return message;
 		
 	}
